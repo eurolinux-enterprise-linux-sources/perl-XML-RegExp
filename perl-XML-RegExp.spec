@@ -1,6 +1,6 @@
 Name:           perl-XML-RegExp
 Version:        0.04
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Regular expressions for XML tokens
 
 Group:          Development/Libraries
@@ -53,6 +53,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.04-2
+- Mass rebuild 2013-12-27
+
 * Thu Nov 22 2012 Marcela Mašláňová <mmaslano@redhat.com> - 0.04-1
 - Update to 0.04
 
